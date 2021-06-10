@@ -82,11 +82,47 @@ var b1 = false;
 
 // if statment
 
-var sk1 = 15;
+var sk1 = -15;
 
 if (sk1 > 10) {
     console.log("didelis")
     sk1 = sk1 * 10;
     console.log(sk1);
+} else {
+    console.log("vidurys");
 }
 console.log("pabaiga");
+
+if (!(0 <= sk1 & sk1 <= 9)) {
+    /* 
+    0 <= 5  false
+    5<= 9   true
+    false & true = false
+    Turime dar neiginį, tai rezultatas bus = True
+    Tokiu atveju kai abi sąlygos užrašytos, tai abi turi būti tenkinamos, kad gauti TRUE
+    */
+    console.log("vienazenklis");
+} else {}
+
+var sk = 1;
+while (sk <= 100) {
+    if (sk % 5 === 0 || sk % 2 === 0) {
+        console.log(sk);
+    }
+    sk = sk + 1;
+}
+console.log("pabaiga111")
+
+var nuo = 2;
+var iki = 4;
+
+var i = 2;
+while (i <= iki) {
+    var j = nuo;
+    while (j <= iki) {
+        console.log(i * j);
+        j = j + 1;
+    }
+    i = i + 1;
+}
+console.log("pabaiga sandaugos");
