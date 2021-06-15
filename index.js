@@ -126,3 +126,5 @@ while (i <= iki) {
     i = i + 1;
 }
 console.log("pabaiga sandaugos");
+
+//====== Rasti pirminius skaičius ======//
