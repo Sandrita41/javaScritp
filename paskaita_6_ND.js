@@ -20,3 +20,11 @@ var iki = 1;
 for (var x = nuo; x >= iki; x -= 3) {
     console.log(x);
 }
+
+var nuoA = 1;
+var ikiA = 7;
+for (var i = nuoA; i <= ikiA; i++) {
+    for (var j = nuoA; j <= ikiA; j++) {
+        console.log(i * j);
+    }
+}
